@@ -1,0 +1,7 @@
+create table peliculas(
+	id int auto_increment primary key,
+    titulo varchar(255),
+    director varchar(255),
+    categoria varchar(255),
+    duracion_minutos int
+);

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', async function () {
     const registrationForm = document.getElementById('registration-form');
     // URL del controlador de la API
-    const apiUrl = '/backend/controler/peliculas.controller.php';
+    const apiUrl = 'backend/controler/peliculas.controller.php';
 
     if (registrationForm) {
         registrationForm.addEventListener('submit', async function (event) {
