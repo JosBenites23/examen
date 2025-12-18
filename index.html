@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="auto">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de pelicula</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta name="theme-color" content="#712cf9" />
+</head>
+
+<body class="d-flex align-items-center py-4">
+    <main class="form-signin w-100 m-auto">
+        <form id="registration-form">
+            <h1 class="h3 mb-3 fw-normal text-center">Registra una Nueva Pelicula</h1>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="titulo" name="titulo" placeholder="titulo de la pelicula"
+                    required>
+                <label for="titulo">titulo</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="director" name="director" placeholder="director" required>
+                <label for="director">director</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="categoria" name="categoria" placeholder="categoria"
+                    required>
+                <label for="categoria">categoria</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="duracion_minutos" name="duracion_minutos"
+                    placeholder="duracion en minutos" required>
+                <label for="duracion_minutos">duracion en minutos</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 py-2 mt-3">Registrar Cuenta</button>
+            <button type="button" class="btn btn-primary w-100 py-2 mt-3">obtener csv</button>
+        </form>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script src="registro.js"></script>
+</body>
+
+</html>
